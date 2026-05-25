@@ -1,0 +1,73 @@
+# ========================
+# Node & Frontend (React/Vite)
+# ========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ========================
+# Python & Backend (FastAPI)
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ========================
+# AI & RAG Data
+# ========================
+# Ignore uploaded test documents and temporary files
+uploads/
+test_docs/
+temp/
+
+# Ignore local vector database storage
+faiss_index/
+chroma_db/
+
+# ========================
+# Editor directories and OS files
+# ========================
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
